@@ -419,8 +419,8 @@ def gameLoop():
                               size="large")
 
             message_to_screen("Aperte C para jogar novamente!", red, 50, size="medium")
-            message_to_screen("Aperte 1 para trocar de dificuldade!", red, 100, size="medium")
-            message_to_screen("Aperte 2 para trocar de skin!", red, 150, size="medium")
+            message_to_screen("Aperte 1 para trocar de Skin!", red, 100, size="medium")
+            message_to_screen("Aperte 2 para trocar de dificuldade!", red, 150, size="medium")
             message_to_screen("Aperte Q para sair!", red, 200, size="medium")
             best_score(lis[-1], red)
             pygame.display.update()
